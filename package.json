@@ -2,7 +2,7 @@
   "name": "dag-pizza-hub",
   "description": "DAG Pizza Hub",
   "author": "DAGBPA",
-  "version": "0.1",
+  "version": "0.1.0",
   "main": "start.js",
   "keywords": [
     "hub",
