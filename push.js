@@ -1,6 +1,6 @@
-var db = require('byteballcore/db');
-var conf = require('byteballcore/conf');
-var eventBus = require('byteballcore/event_bus.js');
+var db = require('dag-pizza-dough/db');
+var conf = require('dag-pizza-dough/conf');
+var eventBus = require('dag-pizza-dough/event_bus.js');
 var https = require('https');
 
 
@@ -54,7 +54,7 @@ function sendRest(registrationIds) {
 		"registration_ids": registrationIds,
 		"data": {
 			"message": "New message",
-			"title": "Byteball",
+			"title": "DAGPizza",
 			"vibrate": 1,
 			"sound": 1
 		}

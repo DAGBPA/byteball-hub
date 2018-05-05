@@ -1,8 +1,8 @@
 /*jslint node: true */
 "use strict";
 
-exports.clientName = 'byteball';
-exports.minClientVersion = '2.2.0';
+exports.clientName = 'dagpizza';
+exports.minClientVersion = '0.1';
 
 // https://console.developers.google.com
 exports.pushApiProjectNumber = 0;
@@ -56,7 +56,7 @@ exports.initial_witnesses = [
 */
 
 exports.initial_peers = [
-	'wss://byteball.org/bb'
+	'wss://dagpizza.org/bb'
 ];
 
 exports.trustedRegistries = {

@@ -1,2 +1,2 @@
-*/5 * * * * cd byteball-hub; node check_daemon.js 1>>~/.config/byteball-hub/check_daemon.log 2>>~/.config/byteball-hub/check_daemon.err
-*/15 * * * * cd byteball-hub; node check_witnesses.js 1>>~/.config/byteball-hub/check_witnesses.log 2>>~/.config/byteball-hub/check_witnesses.err
+*/5 * * * * cd dag-pizza-hub; node check_daemon.js 1>>~/.config/dag-pizza-hub/check_daemon.log 2>>~/.config/dag-pizza-hub/check_daemon.err
+*/15 * * * * cd dag-pizza-hub; node check_witnesses.js 1>>~/.config/dag-pizza-hub/check_witnesses.log 2>>~/.config/dag-pizza-hub/check_witnesses.err

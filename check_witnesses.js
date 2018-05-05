@@ -1,9 +1,9 @@
 /*jslint node: true */
 "use strict";
-var db = require('byteballcore/db.js');
-var storage = require('byteballcore/storage.js');
-var mail = require('byteballcore/mail.js');
-var conf = require('byteballcore/conf.js');
+var db = require('dag-pizza-dough/db.js');
+var storage = require('dag-pizza-dough/storage.js');
+var mail = require('dag-pizza-dough/mail.js');
+var conf = require('dag-pizza-dough/conf.js');
 
 function notifyAdmin(message){
 	write(message);
